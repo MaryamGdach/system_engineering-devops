@@ -1,2 +1,2 @@
 #!/bin/bash
-if [[ -f file_1acta ]]; then read _; read _; read line; echo "$line"; fi < file_1acta
+[[ -f /etc/passwd ]] && head -n 10 /etc/passwd
