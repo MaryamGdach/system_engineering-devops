@@ -1,2 +1,3 @@
-echo -e "line1\nline2\nline3\nline4\nline5\nline6\nline7\nline8\nline9\nline10" > testfile
+#!/bin/bash
+[[ -f ./testfile ]] && head -n 10 ./testfile
 
