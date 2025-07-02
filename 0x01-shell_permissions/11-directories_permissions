@@ -1,2 +1,2 @@
 #!/bin/bash
-751 my_dir
+find . -type d -exec chmod u+x,g+x,o+x {} \;
