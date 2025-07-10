@@ -1,2 +1,2 @@
 #!/bin/bash
-n=1; while read line; do [ $n -eq 3 ] && echo "$line"; n=$((n+1)); done < iacta
+head -n 3 iacta | tail -n 1
