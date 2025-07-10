@@ -1,2 +1,2 @@
 #!/bin/bash
-line=($(cat iacta)); echo "${line[2]}"
+n=1; while read line; do [ $n -eq 3 ] && echo "$line"; n=$((n+1)); done < iacta
