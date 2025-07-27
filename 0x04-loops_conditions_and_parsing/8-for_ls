@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script displays the content of the current directory, showing only the part of each filename after the first dash
+
+# Loop through all files in the current directory (excluding hidden files)
+for file in *; do
+    # Check if the file actually
